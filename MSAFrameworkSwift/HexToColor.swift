@@ -32,4 +32,5 @@ public class HexToColor{
                alpha: CGFloat(1.0)
            )
        }
+    public init(){}
 }
