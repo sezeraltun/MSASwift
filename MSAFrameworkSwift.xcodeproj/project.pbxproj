@@ -13,21 +13,10 @@
 		52DAF0E5244A5E8B002A2D42 /* HexToColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF0E4244A5E8B002A2D42 /* HexToColor.swift */; };
 		52DAF10E244C4BEC002A2D42 /* MSAAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF10D244C4BEC002A2D42 /* MSAAlertView.swift */; };
 		52DAF110244C4C03002A2D42 /* ViewLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF10F244C4C03002A2D42 /* ViewLoadingIndicator.swift */; };
-		52DAF147244C4CD3002A2D42 /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF138244C4CD3002A2D42 /* NSRegularExpression+Swift.swift */; };
-		52DAF148244C4CD3002A2D42 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF139244C4CD3002A2D42 /* ParseManager.swift */; };
-		52DAF149244C4CD3002A2D42 /* RegexManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF13A244C4CD3002A2D42 /* RegexManager.swift */; };
-		52DAF14A244C4CD3002A2D42 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF13B244C4CD3002A2D42 /* Constants.swift */; };
-		52DAF14B244C4CD3002A2D42 /* PartialFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF13C244C4CD3002A2D42 /* PartialFormatter.swift */; };
-		52DAF14C244C4CD3002A2D42 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 52DAF13D244C4CD3002A2D42 /* Resources */; };
-		52DAF14D244C4CD3002A2D42 /* MetadataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF13E244C4CD3002A2D42 /* MetadataManager.swift */; };
-		52DAF14E244C4CD3002A2D42 /* MetadataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF13F244C4CD3002A2D42 /* MetadataTypes.swift */; };
-		52DAF14F244C4CD3002A2D42 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 52DAF140244C4CD3002A2D42 /* UI */; };
-		52DAF150244C4CD3002A2D42 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF141244C4CD3002A2D42 /* Formatter.swift */; };
-		52DAF151244C4CD3002A2D42 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF142244C4CD3002A2D42 /* PhoneNumberParser.swift */; };
-		52DAF152244C4CD3002A2D42 /* MetadataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF143244C4CD3002A2D42 /* MetadataParsing.swift */; };
-		52DAF153244C4CD3002A2D42 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF144244C4CD3002A2D42 /* PhoneNumber.swift */; };
-		52DAF154244C4CD3002A2D42 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF145244C4CD3002A2D42 /* PhoneNumberFormatter.swift */; };
-		52DAF155244C4CD3002A2D42 /* PhoneNumberKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF146244C4CD3002A2D42 /* PhoneNumberKit.swift */; };
+		52DAF15A244C5115002A2D42 /* PhoneFormattedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF156244C5114002A2D42 /* PhoneFormattedTextField.swift */; };
+		52DAF15B244C5115002A2D42 /* ConfigRepo in Resources */ = {isa = PBXBuildFile; fileRef = 52DAF157244C5114002A2D42 /* ConfigRepo */; };
+		52DAF15C244C5115002A2D42 /* FormattedTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF158244C5115002A2D42 /* FormattedTextFieldDelegate.swift */; };
+		52DAF15D244C5115002A2D42 /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF159244C5115002A2D42 /* PhoneFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,21 +39,10 @@
 		52DAF0E4244A5E8B002A2D42 /* HexToColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexToColor.swift; sourceTree = "<group>"; };
 		52DAF10D244C4BEC002A2D42 /* MSAAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAAlertView.swift; sourceTree = "<group>"; };
 		52DAF10F244C4C03002A2D42 /* ViewLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoadingIndicator.swift; sourceTree = "<group>"; };
-		52DAF138244C4CD3002A2D42 /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSRegularExpression+Swift.swift"; path = "PhoneNumberKit/NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
-		52DAF139244C4CD3002A2D42 /* ParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParseManager.swift; path = PhoneNumberKit/ParseManager.swift; sourceTree = "<group>"; };
-		52DAF13A244C4CD3002A2D42 /* RegexManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegexManager.swift; path = PhoneNumberKit/RegexManager.swift; sourceTree = "<group>"; };
-		52DAF13B244C4CD3002A2D42 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = PhoneNumberKit/Constants.swift; sourceTree = "<group>"; };
-		52DAF13C244C4CD3002A2D42 /* PartialFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PartialFormatter.swift; path = PhoneNumberKit/PartialFormatter.swift; sourceTree = "<group>"; };
-		52DAF13D244C4CD3002A2D42 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = PhoneNumberKit/Resources; sourceTree = "<group>"; };
-		52DAF13E244C4CD3002A2D42 /* MetadataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataManager.swift; path = PhoneNumberKit/MetadataManager.swift; sourceTree = "<group>"; };
-		52DAF13F244C4CD3002A2D42 /* MetadataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataTypes.swift; path = PhoneNumberKit/MetadataTypes.swift; sourceTree = "<group>"; };
-		52DAF140244C4CD3002A2D42 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UI; path = PhoneNumberKit/UI; sourceTree = "<group>"; };
-		52DAF141244C4CD3002A2D42 /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Formatter.swift; path = PhoneNumberKit/Formatter.swift; sourceTree = "<group>"; };
-		52DAF142244C4CD3002A2D42 /* PhoneNumberParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneNumberParser.swift; path = PhoneNumberKit/PhoneNumberParser.swift; sourceTree = "<group>"; };
-		52DAF143244C4CD3002A2D42 /* MetadataParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataParsing.swift; path = PhoneNumberKit/MetadataParsing.swift; sourceTree = "<group>"; };
-		52DAF144244C4CD3002A2D42 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneNumber.swift; path = PhoneNumberKit/PhoneNumber.swift; sourceTree = "<group>"; };
-		52DAF145244C4CD3002A2D42 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneNumberFormatter.swift; path = PhoneNumberKit/PhoneNumberFormatter.swift; sourceTree = "<group>"; };
-		52DAF146244C4CD3002A2D42 /* PhoneNumberKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhoneNumberKit.swift; path = PhoneNumberKit/PhoneNumberKit.swift; sourceTree = "<group>"; };
+		52DAF156244C5114002A2D42 /* PhoneFormattedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneFormattedTextField.swift; sourceTree = "<group>"; };
+		52DAF157244C5114002A2D42 /* ConfigRepo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConfigRepo; sourceTree = "<group>"; };
+		52DAF158244C5115002A2D42 /* FormattedTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormattedTextFieldDelegate.swift; sourceTree = "<group>"; };
+		52DAF159244C5115002A2D42 /* PhoneFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +85,10 @@
 		52DAF0CC244A5E33002A2D42 /* MSAFrameworkSwift */ = {
 			isa = PBXGroup;
 			children = (
-				52DAF137244C4CAA002A2D42 /* PhoneNumberKit */,
+				52DAF157244C5114002A2D42 /* ConfigRepo */,
+				52DAF158244C5115002A2D42 /* FormattedTextFieldDelegate.swift */,
+				52DAF156244C5114002A2D42 /* PhoneFormattedTextField.swift */,
+				52DAF159244C5115002A2D42 /* PhoneFormatter.swift */,
 				52DAF0CD244A5E33002A2D42 /* MSAFrameworkSwift.h */,
 				52DAF0CE244A5E33002A2D42 /* Info.plist */,
 				52DAF0E4244A5E8B002A2D42 /* HexToColor.swift */,
@@ -124,28 +105,6 @@
 				52DAF0DA244A5E34002A2D42 /* Info.plist */,
 			);
 			path = MSAFrameworkSwiftTests;
-			sourceTree = "<group>";
-		};
-		52DAF137244C4CAA002A2D42 /* PhoneNumberKit */ = {
-			isa = PBXGroup;
-			children = (
-				52DAF13B244C4CD3002A2D42 /* Constants.swift */,
-				52DAF141244C4CD3002A2D42 /* Formatter.swift */,
-				52DAF13E244C4CD3002A2D42 /* MetadataManager.swift */,
-				52DAF143244C4CD3002A2D42 /* MetadataParsing.swift */,
-				52DAF13F244C4CD3002A2D42 /* MetadataTypes.swift */,
-				52DAF138244C4CD3002A2D42 /* NSRegularExpression+Swift.swift */,
-				52DAF139244C4CD3002A2D42 /* ParseManager.swift */,
-				52DAF13C244C4CD3002A2D42 /* PartialFormatter.swift */,
-				52DAF144244C4CD3002A2D42 /* PhoneNumber.swift */,
-				52DAF145244C4CD3002A2D42 /* PhoneNumberFormatter.swift */,
-				52DAF146244C4CD3002A2D42 /* PhoneNumberKit.swift */,
-				52DAF142244C4CD3002A2D42 /* PhoneNumberParser.swift */,
-				52DAF13A244C4CD3002A2D42 /* RegexManager.swift */,
-				52DAF13D244C4CD3002A2D42 /* Resources */,
-				52DAF140244C4CD3002A2D42 /* UI */,
-			);
-			path = PhoneNumberKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DAF14F244C4CD3002A2D42 /* UI in Resources */,
-				52DAF14C244C4CD3002A2D42 /* Resources in Resources */,
+				52DAF15B244C5115002A2D42 /* ConfigRepo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,21 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DAF150244C4CD3002A2D42 /* Formatter.swift in Sources */,
-				52DAF153244C4CD3002A2D42 /* PhoneNumber.swift in Sources */,
 				52DAF110244C4C03002A2D42 /* ViewLoadingIndicator.swift in Sources */,
-				52DAF149244C4CD3002A2D42 /* RegexManager.swift in Sources */,
-				52DAF14B244C4CD3002A2D42 /* PartialFormatter.swift in Sources */,
-				52DAF148244C4CD3002A2D42 /* ParseManager.swift in Sources */,
-				52DAF14D244C4CD3002A2D42 /* MetadataManager.swift in Sources */,
-				52DAF147244C4CD3002A2D42 /* NSRegularExpression+Swift.swift in Sources */,
-				52DAF152244C4CD3002A2D42 /* MetadataParsing.swift in Sources */,
-				52DAF14E244C4CD3002A2D42 /* MetadataTypes.swift in Sources */,
-				52DAF155244C4CD3002A2D42 /* PhoneNumberKit.swift in Sources */,
-				52DAF14A244C4CD3002A2D42 /* Constants.swift in Sources */,
+				52DAF15A244C5115002A2D42 /* PhoneFormattedTextField.swift in Sources */,
+				52DAF15C244C5115002A2D42 /* FormattedTextFieldDelegate.swift in Sources */,
+				52DAF15D244C5115002A2D42 /* PhoneFormatter.swift in Sources */,
 				52DAF0E5244A5E8B002A2D42 /* HexToColor.swift in Sources */,
-				52DAF151244C4CD3002A2D42 /* PhoneNumberParser.swift in Sources */,
-				52DAF154244C4CD3002A2D42 /* PhoneNumberFormatter.swift in Sources */,
 				52DAF10E244C4BEC002A2D42 /* MSAAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

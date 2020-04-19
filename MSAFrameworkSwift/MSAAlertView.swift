@@ -11,8 +11,7 @@ import Foundation
 
 public class MSAAlertView{
     
-   public class AlertView{
-        
+   
         public func alert(root:UIViewController,title:String,message:String,btn:String){
             let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
 
@@ -24,7 +23,7 @@ public class MSAAlertView{
         }
        
         
-    }
+    
     public init(){
         
     }
