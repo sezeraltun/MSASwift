@@ -14,7 +14,7 @@ public class ViewLoadingIndicator{
     var show = Bool(false)
     var loadingView: UIView = UIView()
     var actInd: UIActivityIndicatorView = UIActivityIndicatorView()
-    public func showActivityIndicatory(uiView: UIView) {
+    func showActivityIndicatory(uiView: UIView) {
         show=true
         container.removeFromSuperview()
         container.frame = uiView.frame
@@ -45,7 +45,7 @@ public class ViewLoadingIndicator{
         let blue = CGFloat(rgbValue & 0xFF)/256.0
         return UIColor(red:red, green:green, blue:blue, alpha:CGFloat(alpha))
     }
-    public func hideActivityIndicator(uiView: UIView) {
+    func hideActivityIndicator(uiView: UIView) {
             show=false
            actInd.stopAnimating()
            container.removeFromSuperview()

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52D33F4B244C53C700781A86 /* ConfigurationRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D33F49244C53C700781A86 /* ConfigurationRepo.swift */; };
+		52D33F4C244C53C700781A86 /* PhoneFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D33F4A244C53C700781A86 /* PhoneFormat.swift */; };
+		52D33F4E244C53F600781A86 /* PhoneEditText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D33F4D244C53F600781A86 /* PhoneEditText.swift */; };
 		52DAF0D4244A5E34002A2D42 /* MSAFrameworkSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DAF0CA244A5E33002A2D42 /* MSAFrameworkSwift.framework */; };
 		52DAF0D9244A5E34002A2D42 /* MSAFrameworkSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF0D8244A5E34002A2D42 /* MSAFrameworkSwiftTests.swift */; };
 		52DAF0DB244A5E34002A2D42 /* MSAFrameworkSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DAF0CD244A5E33002A2D42 /* MSAFrameworkSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,7 +17,6 @@
 		52DAF10E244C4BEC002A2D42 /* MSAAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF10D244C4BEC002A2D42 /* MSAAlertView.swift */; };
 		52DAF110244C4C03002A2D42 /* ViewLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF10F244C4C03002A2D42 /* ViewLoadingIndicator.swift */; };
 		52DAF15A244C5115002A2D42 /* PhoneFormattedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF156244C5114002A2D42 /* PhoneFormattedTextField.swift */; };
-		52DAF15B244C5115002A2D42 /* ConfigRepo in Resources */ = {isa = PBXBuildFile; fileRef = 52DAF157244C5114002A2D42 /* ConfigRepo */; };
 		52DAF15C244C5115002A2D42 /* FormattedTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF158244C5115002A2D42 /* FormattedTextFieldDelegate.swift */; };
 		52DAF15D244C5115002A2D42 /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DAF159244C5115002A2D42 /* PhoneFormatter.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52D33F49244C53C700781A86 /* ConfigurationRepo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationRepo.swift; sourceTree = "<group>"; };
+		52D33F4A244C53C700781A86 /* PhoneFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneFormat.swift; sourceTree = "<group>"; };
+		52D33F4D244C53F600781A86 /* PhoneEditText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneEditText.swift; sourceTree = "<group>"; };
 		52DAF0CA244A5E33002A2D42 /* MSAFrameworkSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MSAFrameworkSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DAF0CD244A5E33002A2D42 /* MSAFrameworkSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAFrameworkSwift.h; sourceTree = "<group>"; };
 		52DAF0CE244A5E33002A2D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +45,6 @@
 		52DAF10D244C4BEC002A2D42 /* MSAAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSAAlertView.swift; sourceTree = "<group>"; };
 		52DAF10F244C4C03002A2D42 /* ViewLoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoadingIndicator.swift; sourceTree = "<group>"; };
 		52DAF156244C5114002A2D42 /* PhoneFormattedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneFormattedTextField.swift; sourceTree = "<group>"; };
-		52DAF157244C5114002A2D42 /* ConfigRepo */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ConfigRepo; sourceTree = "<group>"; };
 		52DAF158244C5115002A2D42 /* FormattedTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormattedTextFieldDelegate.swift; sourceTree = "<group>"; };
 		52DAF159244C5115002A2D42 /* PhoneFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52D33F48244C53C700781A86 /* ConfigRepo */ = {
+			isa = PBXGroup;
+			children = (
+				52D33F49244C53C700781A86 /* ConfigurationRepo.swift */,
+				52D33F4A244C53C700781A86 /* PhoneFormat.swift */,
+			);
+			path = ConfigRepo;
+			sourceTree = "<group>";
+		};
 		52DAF0C0244A5E33002A2D42 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +98,7 @@
 		52DAF0CC244A5E33002A2D42 /* MSAFrameworkSwift */ = {
 			isa = PBXGroup;
 			children = (
-				52DAF157244C5114002A2D42 /* ConfigRepo */,
+				52D33F48244C53C700781A86 /* ConfigRepo */,
 				52DAF158244C5115002A2D42 /* FormattedTextFieldDelegate.swift */,
 				52DAF156244C5114002A2D42 /* PhoneFormattedTextField.swift */,
 				52DAF159244C5115002A2D42 /* PhoneFormatter.swift */,
@@ -94,6 +107,7 @@
 				52DAF0E4244A5E8B002A2D42 /* HexToColor.swift */,
 				52DAF10D244C4BEC002A2D42 /* MSAAlertView.swift */,
 				52DAF10F244C4C03002A2D42 /* ViewLoadingIndicator.swift */,
+				52D33F4D244C53F600781A86 /* PhoneEditText.swift */,
 			);
 			path = MSAFrameworkSwift;
 			sourceTree = "<group>";
@@ -200,7 +214,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DAF15B244C5115002A2D42 /* ConfigRepo in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,11 +232,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DAF110244C4C03002A2D42 /* ViewLoadingIndicator.swift in Sources */,
+				52D33F4E244C53F600781A86 /* PhoneEditText.swift in Sources */,
 				52DAF15A244C5115002A2D42 /* PhoneFormattedTextField.swift in Sources */,
 				52DAF15C244C5115002A2D42 /* FormattedTextFieldDelegate.swift in Sources */,
 				52DAF15D244C5115002A2D42 /* PhoneFormatter.swift in Sources */,
 				52DAF0E5244A5E8B002A2D42 /* HexToColor.swift in Sources */,
+				52D33F4B244C53C700781A86 /* ConfigurationRepo.swift in Sources */,
 				52DAF10E244C4BEC002A2D42 /* MSAAlertView.swift in Sources */,
+				52D33F4C244C53C700781A86 /* PhoneFormat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
