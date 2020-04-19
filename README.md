@@ -1,5 +1,6 @@
 # MSASwift
 
+It was developed to provide fast and easy use.
 
 
 ## Requirements
